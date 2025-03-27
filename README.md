@@ -1,7 +1,12 @@
 ### 💀🕶️ Black Phantom Logger
-⚠️ Disclaimer: This project is strictly for educational purposes and cybersecurity research only. 
-It is intended to help beginners understand keylogging mechanisms and ethical hacking concepts in a controlled environment. 
-The author holds no responsibility for any misuse of this code.
+
+## ⚠️ Warning & Ethical Considerations
+**🚨 This tool is meant for learning cybersecurity only!**
+- Do **not** use this tool without proper authorization.
+- Unauthorized use of keyloggers is **illegal and punishable** by law.
+- The author **takes no responsibility** for any unethical or misuse use of this code.
+
+🔴 **Use responsibly and ethically.**
 
 ##🛠️ Tools Used
 For writing and running the Python script, I used:
