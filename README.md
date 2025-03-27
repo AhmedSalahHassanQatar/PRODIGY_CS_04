@@ -55,7 +55,7 @@ from pynput.keyboard import Listener
 import os
 import pyautogui
 from PIL import Image, ImageTk
-```python
+```
 
 `tkinter` – Creates the graphical interface.
 
