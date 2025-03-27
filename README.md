@@ -54,7 +54,8 @@ from tkinter import messagebox
 from pynput.keyboard import Listener
 import os
 import pyautogui
-from PIL import Image, ImageTk```
+from PIL import Image, ImageTk
+```python
 
 `tkinter` – Creates the graphical interface.
 
