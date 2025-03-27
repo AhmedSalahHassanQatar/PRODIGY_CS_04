@@ -1,7 +1,7 @@
 ### 💀🕶️ Black Phantom Logger
 
 ## ⚠️ Warning & Ethical Considerations
-**🚨 This tool is meant for learning cybersecurity only!**
+**🚨 This tool is meant for eductional purpose and learning cybersecurity only!**
 - Do **not** use this tool without proper authorization.
 - Unauthorized use of keyloggers is **illegal and punishable** by law.
 - The author **takes no responsibility** for any unethical or misuse use of this code.
