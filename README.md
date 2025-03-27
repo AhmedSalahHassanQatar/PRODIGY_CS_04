@@ -197,7 +197,7 @@ pip install pynput tkinter opencv-python pyautogui pillow
 Run the script in Thonny or terminal:
 python keylogger.py
 
-📜 Final Words
+## 📜 Final Words
 This project is a basic yet powerful way to understand how keyloggers work in a cybersecurity research context. If you're a beginner, this is a great starting point for learning about ethical hacking, Python scripting, and GUI development.
 
 🚀 Happy Learning, and Stay Ethical!
