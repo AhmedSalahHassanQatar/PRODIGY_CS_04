@@ -16,18 +16,19 @@ Thonny IDE – A beginner-friendly Python environment, great for easy script exe
 ## 📦 Required Python Libraries
 Before running the keylogger, install the necessary libraries:
 
+`pip install pynput tkinter opencv-python pyautogui pillow`
 
-pip install pynput tkinter opencv-python pyautogui pillow
-Libraries Explained:
-pynput – Captures keystrokes in the background.
+# Libraries Explained:
 
-tkinter – Creates the GUI for our Black Phantom Logger.
+`pynput` – Captures keystrokes in the background.
 
-opencv-python – Helps handle images (optional for additional features).
+`tkinter` – Creates the GUI for our Black Phantom Logger.
 
-pyautogui – Captures screenshots.
+`opencv-python` – Helps handle images (optional for additional features).
 
-PIL (pillow) – Supports image manipulation inside the GUI.
+`pyautogui` – Captures screenshots.
+
+`PIL (pillow)` – Supports image manipulation inside the GUI.
 
 ## 🚀 Project Overview
 This is a simple keylogger with a dark hacker-themed GUI named Black Phantom Logger. It records keystrokes and saves them to a file. It also includes:
@@ -47,24 +48,27 @@ Let's break down the script step by step!
 
 # 1️⃣ Importing Required Modules
 
+```python
 import tkinter as tk
 from tkinter import messagebox
 from pynput.keyboard import Listener
 import os
 import pyautogui
 from PIL import Image, ImageTk
-tkinter – Creates the graphical interface.
 
-pynput.keyboard.Listener – Monitors and records keystrokes.
+`tkinter` – Creates the graphical interface.
 
-os – Handles file operations.
+`pynput.keyboard.Listener` – Monitors and records keystrokes.
 
-pyautogui – Captures screenshots.
+`os` – Handles file operations.
 
-PIL.Image, ImageTk – Displays images in the GUI.
+`pyautogui` – Captures screenshots.
+
+`PIL.Image, ImageTk` – Displays images in the GUI.
 
 # 2️⃣ Creating the GUI (Graphical User Interface)
 
+```python
 root = tk.Tk()
 root.title("Black Phantom Logger")
 root.geometry("400x400")
