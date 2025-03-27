@@ -54,7 +54,7 @@ from tkinter import messagebox
 from pynput.keyboard import Listener
 import os
 import pyautogui
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk```
 
 `tkinter` – Creates the graphical interface.
 
@@ -79,7 +79,7 @@ title("Black Phantom Logger") – Sets the program title.
 
 geometry("400x400") – Defines the window size.
 
-configure(bg="black") – Applies the dark hacker-style theme.
+configure(bg="black") – Applies the dark hacker-style theme.```
 
 3️⃣ Adding a Hacker-Style Logo
 
