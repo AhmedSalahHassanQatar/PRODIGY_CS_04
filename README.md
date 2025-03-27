@@ -8,7 +8,7 @@
 
 🔴 **Use responsibly and ethically.**
 
-##🛠️ Tools Used
+## 🛠️ Tools Used
 For writing and running the Python script, I used:
 
 Thonny IDE – A beginner-friendly Python environment, great for easy script execution and debugging.
