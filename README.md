@@ -188,10 +188,10 @@ The author takes no responsibility for any unethical use.
 Install Thonny IDE (if not installed).
 
 Download or clone this repository:
-``bash
+***```bash
 git clone https://github.com/AhmedSalahHassanQatar/PRODIGY_CS_04
 cd PRODIGY_CS_04
-```
+```***
 
 Install dependencies:
 pip install pynput tkinter opencv-python pyautogui pillow
